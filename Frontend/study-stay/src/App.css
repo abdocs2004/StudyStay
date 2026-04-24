@@ -1,1 +1,72 @@
 @import "tailwindcss";
+
+
+@theme {
+    /* Primary (#4F46E5)
+    متوافق مع تدرجات الـ Indigo
+  */
+    --color-primary-50: #eef2ff;
+    --color-primary-100: #e0e7ff;
+    --color-primary-200: #c7d2fe;
+    --color-primary-300: #a5b4fc;
+    --color-primary-400: #818cf8;
+    --color-primary-500: #6366f1;
+    --color-primary-600: #4f46e5;
+    /* Base */
+    --color-primary-700: #4338ca;
+    --color-primary-800: #3730a3;
+    --color-primary-900: #312e81;
+    --color-primary-950: #1e1b4b;
+
+    /* Secondary (#22C55E)
+    متوافق مع تدرجات الـ Green
+  */
+    --color-secondary-50: #f0fdf4;
+    --color-secondary-100: #dcfce7;
+    --color-secondary-200: #bbf7d0;
+    --color-secondary-300: #86efac;
+    --color-secondary-400: #4ade80;
+    --color-secondary-500: #22c55e;
+    /* Base */
+    --color-secondary-600: #16a34a;
+    --color-secondary-700: #15803d;
+    --color-secondary-800: #166534;
+    --color-secondary-900: #14532d;
+    --color-secondary-950: #052e16;
+
+    /* Tertiary (#A54100)
+    تدرج مخصص للون البني/الصدئ
+  */
+    --color-tertiary-50: #fff6f0;
+    --color-tertiary-100: #ffead9;
+    --color-tertiary-200: #fcd1b3;
+    --color-tertiary-300: #f8b082;
+    --color-tertiary-400: #f18749;
+    --color-tertiary-500: #e9631b;
+    --color-tertiary-600: #d94b11;
+    --color-tertiary-700: #b5380c;
+    --color-tertiary-800: #a54100;
+    /* Base */
+    --color-tertiary-900: #7a2b0d;
+    --color-tertiary-950: #421304;
+
+    /* Neutral (#111827)
+    متوافق مع تدرجات الـ Gray القياسية للوضع الليلي والنهاري
+  */
+    --color-neutral-50: #f9fafb;
+    --color-neutral-100: #f3f4f6;
+    --color-neutral-200: #e5e7eb;
+    --color-neutral-300: #d1d5db;
+    --color-neutral-400: #9ca3af;
+    --color-neutral-500: #6b7280;
+    --color-neutral-600: #4b5563;
+    --color-neutral-700: #374151;
+    --color-neutral-800: #1f2937;
+    --color-neutral-900: #111827;
+    /* Base */
+    --color-neutral-950: #030712;
+
+    /* إعداد الخطوط المرفقة في التصميم */
+    --font-headline: "Manrope", sans-serif;
+    --font-body: "Inter", sans-serif;
+}
