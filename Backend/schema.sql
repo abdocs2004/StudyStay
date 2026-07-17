@@ -1,7 +1,7 @@
 -- MySQL Schema Setup Script for StudyStay
 
-CREATE DATABASE IF NOT EXISTS `studystay` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE `studystay`;
+-- CREATE DATABASE IF NOT EXISTS `studystay` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+-- USE `studystay`;
 
 -- 1. Users Table
 CREATE TABLE IF NOT EXISTS `users` (
