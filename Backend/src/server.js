@@ -21,7 +21,7 @@ const PORT = process.env.PORT || 5000;
 
 // Enable CORS with support for frontend local servers
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://127.0.0.1:5173'],
+  origin: '*', // Allow all origins for now until frontend is deployed
   credentials: true,
 }));
 
@@ -50,6 +50,10 @@ app.use('*', (req, res) => {
   res.status(404).json({ error: 'Endpoint not found' });
 });
 
-app.listen(PORT, () => {
-  console.log(`[Server] StudyStay Backend running on port ${PORT}`);
-});
+if (process.env.NODE_ENV !== 'production') {
+  app.listen(PORT, () => {
+    console.log(`[Server] StudyStay Backend running on port ${PORT}`);
+  });
+}
+
+export default app;
