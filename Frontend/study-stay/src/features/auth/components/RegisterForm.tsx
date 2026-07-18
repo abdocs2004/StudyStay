@@ -89,7 +89,7 @@ const RegisterForm: React.FC = () => {
   };
 
   return (
-    <div className="space-y-8">
+    <div className="space-y-5">
       <div>
         <h2 className="font-headline text-2xl font-bold text-slate-900">أنشئ حسابك</h2>
         <p className="mt-2 text-sm text-slate-500">اختر إن كنت طالبًا أو مالك عقار ثم أكمل البيانات الأساسية.</p>
@@ -144,7 +144,7 @@ const RegisterForm: React.FC = () => {
               placeholder="الاسم الكامل"
               value={name}
               onChange={(e) => setName(e.target.value)}
-              className="w-full rounded-xl border border-transparent bg-white px-4 py-3 text-slate-900 shadow-sm outline-none transition focus:border-primary/20 focus:ring-2 focus:ring-primary/20"
+              className="w-full rounded-xl border border-transparent bg-white px-4 py-2.5 text-slate-900 shadow-sm outline-none transition focus:border-primary/20 focus:ring-2 focus:ring-primary/20"
             />
           </div>
 
@@ -160,7 +160,7 @@ const RegisterForm: React.FC = () => {
               placeholder="+20 10 0000 0000"
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
-              className="w-full rounded-xl border border-transparent bg-white px-4 py-3 text-slate-900 shadow-sm outline-none transition focus:border-primary/20 focus:ring-2 focus:ring-primary/20"
+              className="w-full rounded-xl border border-transparent bg-white px-4 py-2.5 text-slate-900 shadow-sm outline-none transition focus:border-primary/20 focus:ring-2 focus:ring-primary/20"
             />
           </div>
         </div>
@@ -177,7 +177,7 @@ const RegisterForm: React.FC = () => {
             placeholder="alex@university.edu"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="w-full rounded-xl border border-transparent bg-white px-4 py-3 text-slate-900 shadow-sm outline-none transition focus:border-primary/20 focus:ring-2 focus:ring-primary/20"
+            className="w-full rounded-xl border border-transparent bg-white px-4 py-2.5 text-slate-900 shadow-sm outline-none transition focus:border-primary/20 focus:ring-2 focus:ring-primary/20"
           />
         </div>
 
@@ -194,7 +194,7 @@ const RegisterForm: React.FC = () => {
               placeholder="مثال: جامعة القاهرة"
               value={university}
               onChange={(e) => setUniversity(e.target.value)}
-              className="w-full rounded-xl border border-transparent bg-white px-4 py-3 text-slate-900 shadow-sm outline-none transition focus:border-primary/20 focus:ring-2 focus:ring-primary/20"
+              className="w-full rounded-xl border border-transparent bg-white px-4 py-2.5 text-slate-900 shadow-sm outline-none transition focus:border-primary/20 focus:ring-2 focus:ring-primary/20"
             />
           </div>
         )}
@@ -211,14 +211,14 @@ const RegisterForm: React.FC = () => {
             placeholder="••••••••"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            className="w-full rounded-xl border border-transparent bg-white px-4 py-3 text-slate-900 shadow-sm outline-none transition focus:border-primary/20 focus:ring-2 focus:ring-primary/20"
+            className="w-full rounded-xl border border-transparent bg-white px-4 py-2.5 text-slate-900 shadow-sm outline-none transition focus:border-primary/20 focus:ring-2 focus:ring-primary/20"
           />
         </div>
 
         <button
           type="submit"
           disabled={loading}
-          className="mt-4 w-full rounded-2xl bg-linear-to-r from-indigo-600 to-indigo-700 py-4 font-headline text-sm font-bold text-white shadow-[0_12px_32px_rgba(20,27,43,0.12)] transition hover:scale-[1.02] active:scale-95 disabled:opacity-60"
+          className="mt-2 w-full rounded-xl bg-linear-to-r from-indigo-600 to-indigo-700 py-3 font-headline text-sm font-bold text-white shadow-[0_12px_32px_rgba(20,27,43,0.12)] transition hover:scale-[1.02] active:scale-95 disabled:opacity-60"
         >
           {loading ? 'جاري إنشاء الحساب...' : 'إنشاء حساب جديد'}
         </button>

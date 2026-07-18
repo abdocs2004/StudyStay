@@ -6,12 +6,12 @@ import RegisterShowcase from '../components/RegisterShowcase';
 
 const RegisterPage: React.FC = () => {
   return (
-    <main className="min-h-screen bg-slate-50">
-      <div className="flex min-h-screen flex-col lg:flex-row">
-        <section className="flex w-full items-center justify-center px-5 py-10 sm:px-8 lg:w-[45%] lg:px-12 xl:px-16">
-          <div className="w-full max-w-md">
+    <main className="h-dvh bg-slate-50 overflow-hidden">
+      <div className="flex h-full flex-col lg:flex-row">
+        <section className="flex w-full items-center justify-center px-5 py-4 sm:px-8 lg:w-[45%] lg:px-8 xl:px-12 overflow-y-auto">
+          <div className="w-full max-w-md my-auto pb-4">
             <AuthHeader />
-            <div className="rounded-4x1 border border-slate-200 bg-slate-50/80 p-6 shadow-[0_20px_60px_rgba(15,23,42,0.06)] backdrop-blur-sm sm:p-8">
+            <div className="rounded-2xl border border-slate-200 bg-slate-50/80 p-4 sm:p-6 shadow-[0_20px_60px_rgba(15,23,42,0.06)] backdrop-blur-sm">
               <div className="mb-8 flex items-center justify-between rounded-2xl border border-slate-200 bg-white px-4 py-3 shadow-sm">
                 <div className="flex items-center gap-3">
                   <div className="flex h-10 w-10 items-center justify-center rounded-full bg-linear-to-br from-indigo-600 to-indigo-700 text-sm font-bold text-white">

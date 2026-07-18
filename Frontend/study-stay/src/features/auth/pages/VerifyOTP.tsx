@@ -176,7 +176,7 @@ import { Link, useNavigate } from 'react-router-dom';
             <div className="flex flex-col items-center md:items-start gap-1">
                 <span className="text-lg font-bold text-on-surface font-headline">The Sanctuary</span>
                 <p className="text-slate-500 font-body text-sm">
-                © 2024 StudyStay. جميع الحقوق محفوظة.
+                © 2024 حُجرة. جميع الحقوق محفوظة.
                 </p>
             </div>
             <div className="flex gap-6">

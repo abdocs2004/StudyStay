@@ -30,7 +30,7 @@ const AdminLogin: React.FC = () => {
   return (
     <div className="min-h-screen bg-slate-950 flex items-center justify-center px-4" dir="rtl">
       <div className="w-full max-w-sm rounded-3xl bg-white p-8 shadow-2xl">
-        <p className="text-xs font-bold tracking-[0.3em] text-slate-400 uppercase text-center">StudyStay</p>
+        <p className="text-xs font-bold tracking-[0.3em] text-slate-400 uppercase text-center">حُجرة</p>
         <h1 className="font-headline text-2xl font-black text-center mt-2 mb-8">تسجيل دخول الإدارة</h1>
 
         <form onSubmit={handleSubmit} className="space-y-4">
@@ -42,7 +42,7 @@ const AdminLogin: React.FC = () => {
               onChange={(e) => setEmail(e.target.value)}
               required
               className="mt-2 w-full rounded-xl border border-slate-200 px-3 py-2.5 text-sm outline-none focus:border-primary"
-              placeholder="admin@studystay.com"
+              placeholder="admin@hojra.com"
             />
           </label>
           <label className="block text-xs font-semibold text-slate-600">

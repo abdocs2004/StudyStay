@@ -19,7 +19,7 @@ const Onboarding: React.FC = () => {
     <div className="bg-surface text-on-surface selection:bg-primary-container selection:text-white h-[100dvh] w-full flex flex-col overflow-hidden">
       {/* TopNavBar */}
       <header className="shrink-0 w-full flex justify-between items-center px-6 py-4 bg-transparent z-50">
-        <div className="text-xl font-bold text-indigo-600 dark:text-indigo-400 font-headline">StudyStay</div>
+        <div className="text-xl font-bold text-indigo-600 dark:text-indigo-400 font-headline">حُجرة</div>
         <button 
           onClick={() => navigate('/')} 
           className="text-slate-500 dark:text-slate-400 hover:text-indigo-600 transition-colors font-medium bg-surface-container-high/50 md:bg-white/50 px-4 py-1.5 rounded-full"
@@ -62,7 +62,7 @@ const Onboarding: React.FC = () => {
             <div className="relative w-full flex-1 md:w-2/5 flex flex-col justify-center px-6 py-6 md:px-12 bg-surface z-10">
               <div className="max-w-md w-full mx-auto md:mx-0">
                 <span className="inline-block px-3 py-1.5 mb-4 md:mb-6 rounded-full bg-secondary-container/30 text-on-secondary-container text-[10px] font-bold uppercase tracking-wider">
-                  مرحبا بك في StudyStay
+                  مرحبا بك في حُجرة
                 </span>
                 <h1 className="font-headline text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-on-surface leading-tight mb-4 md:mb-6">
                   سكنك <span className="text-indigo-600 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-indigo-400">المثالي</span> ينتظرك

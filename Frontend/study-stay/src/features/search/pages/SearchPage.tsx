@@ -7,8 +7,10 @@ import {
 } from '../../property/property.service';
 import type { Property } from '../../property/property.service';
 import PropertyCard from '../../property/components/PropertyCard';
+import { useAuth } from '../../../hooks/useAuth';
 
 const SearchPage: React.FC = () => {
+  const { isAuthenticated } = useAuth();
   const [properties, setProperties] = useState<Property[]>([]);
   const [favoritePropertyIds, setFavoritePropertyIds] = useState<number[]>([]);
   const [loading, setLoading] = useState(true);
@@ -62,6 +64,8 @@ const SearchPage: React.FC = () => {
   }, [searchText, university, city, minPrice, maxPrice, rooms, bathrooms, minArea, maxArea, availability, type, sort]);
 
   useEffect(() => {
+    if (!isAuthenticated) return;
+
     const fetchFavoriteIds = async () => {
       try {
         const favoriteProperties = await getFavoriteProperties();
@@ -72,7 +76,7 @@ const SearchPage: React.FC = () => {
     };
 
     fetchFavoriteIds();
-  }, []);
+  }, [isAuthenticated]);
 
   const handleToggleFavorite = async (propertyId: number, currentlyFavorite: boolean) => {
     try {

@@ -9,7 +9,7 @@ const Terms: React.FC = () => {
             المستندات القانونية
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-headline font-extrabold tracking-tight text-on-surface mb-6 max-w-3xl">
-            شروط استخدام StudyStay
+            شروط استخدام حُجرة
           </h1>
           <div className="flex items-center gap-4 text-on-surface-variant font-medium">
             <span className="material-symbols-outlined text-primary">event_note</span>
@@ -34,7 +34,7 @@ const Terms: React.FC = () => {
           <article className="lg:col-span-9 space-y-16 lg:space-y-24">
             <section className="prose prose-slate max-w-none">
               <p className="text-lg md:text-xl leading-relaxed text-on-surface-variant mb-8">
-                بالوصول إلى منصة StudyStay واستخدام خدماتها، فإنك توافق على الالتزام بهذه الشروط. تهدف هذه الشروط إلى تنظيم العلاقة بين المنصة والمستخدمين بما يضمن بيئة سكنية آمنة وشفافة للطلاب وملاك العقارات.
+                بالوصول إلى منصة حُجرة واستخدام خدماتها، فإنك توافق على الالتزام بهذه الشروط. تهدف هذه الشروط إلى تنظيم العلاقة بين المنصة والمستخدمين بما يضمن بيئة سكنية آمنة وشفافة للطلاب وملاك العقارات.
               </p>
               <div className="bg-surface-container-low p-6 md:p-8 rounded-xl border-r-4 border-primary">
                 <p className="font-medium text-on-surface">

@@ -22,7 +22,7 @@ const Careers: React.FC = () => {
           <div className="inline-block px-4 py-1.5 rounded-full bg-secondary-container/20 text-on-secondary-container text-xs font-bold tracking-widest uppercase mb-6">
             الوظائف
           </div>
-          <h1 className="text-4xl md:text-5xl font-headline font-extrabold mb-4">انضم إلى فريق StudyStay</h1>
+          <h1 className="text-4xl md:text-5xl font-headline font-extrabold mb-4">انضم إلى فريق حُجرة</h1>
           <p className="text-lg text-on-surface-variant">نبني منصة تساعد آلاف الطلاب على إيجاد سكن آمن — وندعوك لتكون جزءاً من هذه الرحلة.</p>
         </header>
 

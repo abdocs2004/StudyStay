@@ -40,7 +40,7 @@ const LoginForm: React.FC = () => {
   };
 
   return (
-    <form className="space-y-5" onSubmit={handleSubmit}>
+    <form className="space-y-4" onSubmit={handleSubmit}>
       {errorMessage ? (
         <div className="mb-6 flex items-start gap-3 p-4 bg-error-container text-on-surface rounded-xl text-sm leading-relaxed">
           <span className="material-symbols-outlined text-error text-[20px] mt-0.5">error</span>
@@ -57,7 +57,7 @@ const LoginForm: React.FC = () => {
               placeholder="name@university.edu"
               value={email}
               onChange={(event) => setEmail(event.target.value)}
-              className="w-full px-4 py-4 bg-white border-none rounded-[18px] focus:ring-2 focus:ring-primary/30 text-on-surface placeholder:text-outline transition-all"
+              className="w-full px-4 py-3 bg-white border-none rounded-xl focus:ring-2 focus:ring-primary/30 text-on-surface placeholder:text-outline transition-all"
             />
         </div>
       </div>
@@ -74,7 +74,7 @@ const LoginForm: React.FC = () => {
               placeholder="••••••••"
               value={password}
               onChange={(event) => setPassword(event.target.value)}
-              className="w-full px-4 py-4 bg-white border-none rounded-[18px] focus:ring-2 focus:ring-primary/30 text-on-surface placeholder:text-outline transition-all"
+              className="w-full px-4 py-3 bg-white border-none rounded-xl focus:ring-2 focus:ring-primary/30 text-on-surface placeholder:text-outline transition-all"
             />
           <button
             className="absolute right-4 top-1/2 -translate-y-1/2 text-outline hover:text-primary transition-colors"
@@ -90,14 +90,14 @@ const LoginForm: React.FC = () => {
       <div className="pt-4">
           <button 
             disabled={loading}
-            className="w-full bg-[#3d2fd4] text-white py-4 rounded-[18px] text-[18px] font-bold tracking-wide shadow-[0_18px_36px_rgba(61,47,212,0.28)] hover:-translate-y-0.5 transition-transform active:scale-[0.98] disabled:opacity-60 disabled:cursor-not-allowed" 
+            className="w-full bg-[#3d2fd4] text-white py-3 rounded-xl text-[18px] font-bold tracking-wide shadow-[0_18px_36px_rgba(61,47,212,0.28)] hover:-translate-y-0.5 transition-transform active:scale-[0.98] disabled:opacity-60 disabled:cursor-not-allowed" 
             type="submit"
           >
           {loading ? 'جاري تسجيل الدخول...' : 'تسجيل الدخول'}
         </button>
       </div>
 
-      <div className="mt-8 text-center">
+      <div className="mt-6 text-center">
         <p className="text-on-surface-variant text-sm">ليس لديك حساب؟ <Link to="/register" className="text-primary font-bold hover:underline ml-1">إنشاء حساب</Link></p>
       </div>
     </form>

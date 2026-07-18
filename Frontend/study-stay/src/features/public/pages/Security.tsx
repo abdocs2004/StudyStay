@@ -38,7 +38,7 @@ const Security: React.FC = () => {
           </div>
           <h1 className="text-4xl md:text-5xl font-headline font-extrabold mb-4">أمانك أولويتنا</h1>
           <p className="text-lg text-on-surface-variant">
-            بنينا StudyStay مع الأمان في صميم كل ميزة — من التحقق من العقارات إلى حماية بيانات التواصل والمدفوعات.
+            بنينا حُجرة مع الأمان في صميم كل ميزة — من التحقق من العقارات إلى حماية بيانات التواصل والمدفوعات.
           </p>
         </header>
 
@@ -59,8 +59,8 @@ const Security: React.FC = () => {
         <section className="rounded-3xl bg-primary/5 border border-primary/10 p-8 text-center">
           <p className="text-sm text-on-surface-variant">
             هل لاحظت نشاطاً مريباً أو تواصلاً مشبوهاً؟{' '}
-            <a href="mailto:support@studystay.com" className="font-bold text-primary hover:underline">
-              أبلغنا فوراً على support@studystay.com
+            <a href="mailto:support@hojra.com" className="font-bold text-primary hover:underline">
+              أبلغنا فوراً على support@hojra.com
             </a>
           </p>
         </section>

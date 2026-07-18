@@ -70,7 +70,7 @@ const PasswordResetSuccess: React.FC = () => {
         <div className="mx-auto flex max-w-400 flex-col gap-6 px-8 md:flex-row md:items-end md:justify-between">
           <div>
             <div className="text-[22px] font-bold text-[#0f1d3a]">The Sanctuary</div>
-            <div className="mt-2 text-[14px] text-[#6e768c]">© 2024 StudyStay. جميع الحقوق محفوظة.</div>
+            <div className="mt-2 text-[14px] text-[#6e768c]">© 2024 حُجرة. جميع الحقوق محفوظة.</div>
           </div>
 
           <nav className="flex flex-wrap gap-10 text-[18px] text-[#6e768c] md:pb-1">

@@ -119,7 +119,7 @@ const AccessRestricted: React.FC = () => {
       <footer className="w-full flex flex-col md:flex-row justify-between items-center gap-4 border-t border-slate-100 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 py-12 px-8">
         <div className="flex flex-col gap-2 items-center md:items-start">
           <span className="font-headline font-bold text-slate-900 dark:text-slate-100">The Curated Sanctuary</span>
-          <p className="font-body text-sm text-slate-500 dark:text-slate-400">© 2024 StudyStay. جميع الحقوق محفوظة.</p>
+          <p className="font-body text-sm text-slate-500 dark:text-slate-400">© 2024 حُجرة. جميع الحقوق محفوظة.</p>
         </div>
         <div className="flex gap-8">
           <a className="text-slate-500 dark:text-slate-400 hover:text-indigo-500 transition-colors font-body text-sm" href="#">

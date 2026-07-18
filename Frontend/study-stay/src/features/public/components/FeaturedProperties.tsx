@@ -40,12 +40,12 @@ const FeaturedProperties: React.FC = () => {
             </div>
             <div className="p-6">
               <div className="flex justify-between items-start mb-2">
-                <h4 className="font-headline text-lg font-bold">مجمع إنديجو</h4>
-                <span className="text-primary font-extrabold text-lg">$850<span className="text-xs font-normal text-outline">/mo</span></span>
+                <h4 className="font-headline text-lg font-bold">سكن التجمع المتميز</h4>
+                <span className="text-primary font-extrabold text-lg">3,500<span className="text-xs font-normal text-primary"> ج.م/شهر</span></span>
               </div>
               <p className="text-on-surface-variant text-sm flex items-center gap-1 mb-4">
                 <span className="material-symbols-outlined text-[16px]">location_on</span>
-                بلومزبري، لندن (دقيقتان من UCL)
+                التجمع الخامس، القاهرة (بالقرب من الجامعة الأمريكية)
               </p>
               <div className="flex gap-4 pt-4 border-t border-outline-variant/10 text-xs font-medium text-outline">
                 <span className="flex items-center gap-1"><span className="material-symbols-outlined text-[16px]">bed</span> غرفة واحدة</span>
@@ -76,12 +76,12 @@ const FeaturedProperties: React.FC = () => {
             </div>
             <div className="p-6">
               <div className="flex justify-between items-start mb-2">
-                <h4 className="font-headline text-lg font-bold">استوديو أفينيو</h4>
-                <span className="text-primary font-extrabold text-lg">$1,100<span className="text-xs font-normal text-outline">/mo</span></span>
+                <h4 className="font-headline text-lg font-bold">استوديو الدقي</h4>
+                <span className="text-primary font-extrabold text-lg">5,000<span className="text-xs font-normal text-primary"> ج.م/شهر</span></span>
               </div>
               <p className="text-on-surface-variant text-sm flex items-center gap-1 mb-4">
                 <span className="material-symbols-outlined text-[16px]">location_on</span>
-                باك باي، بوسطن (بالقرب من NEU)
+                الدقي، الجيزة (بالقرب من جامعة القاهرة)
               </p>
               <div className="flex gap-4 pt-4 border-t border-outline-variant/10 text-xs font-medium text-outline">
                 <span className="flex items-center gap-1"><span className="material-symbols-outlined text-[16px]">apartment</span> استوديو</span>
@@ -112,12 +112,12 @@ const FeaturedProperties: React.FC = () => {
             </div>
             <div className="p-6">
               <div className="flex justify-between items-start mb-2">
-                <h4 className="font-headline text-lg font-bold">سانكشواري سويتس</h4>
-                <span className="text-primary font-extrabold text-lg">$920<span className="text-xs font-normal text-outline">/mo</span></span>
+                <h4 className="font-headline text-lg font-bold">سكن المعادي الهادئ</h4>
+                <span className="text-primary font-extrabold text-lg">4,200<span className="text-xs font-normal text-primary"> ج.م/شهر</span></span>
               </div>
               <p className="text-on-surface-variant text-sm flex items-center gap-1 mb-4">
                 <span className="material-symbols-outlined text-[16px]">location_on</span>
-                كارلتون، ملبورن (بالقرب من UniMelb)
+                المعادي، القاهرة (بالقرب من الأكاديمية الحديثة)
               </p>
               <div className="flex gap-4 pt-4 border-t border-outline-variant/10 text-xs font-medium text-outline">
                 <span className="flex items-center gap-1"><span className="material-symbols-outlined text-[16px]">chair</span> مفروش</span>

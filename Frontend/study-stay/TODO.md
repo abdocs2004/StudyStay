@@ -1,4 +1,4 @@
-# TODO - StudyStay Frontend
+# TODO - حُجرة Frontend
 
 ## Phase 1: Routing + Auth scaffolding
 - [ ] فهم/تحديث `useAuth.ts` لتخزين `user` و `role`

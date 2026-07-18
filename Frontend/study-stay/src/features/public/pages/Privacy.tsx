@@ -29,7 +29,7 @@ export default function Privacy() {
               </div>
               <h1 className="text-5xl md:text-6xl font-extrabold text-on-surface tracking-tight leading-tight mb-6 font-headline">سياسة الخصوصية</h1>
               <p className="text-lg text-on-surface-variant leading-relaxed max-w-2xl">
-                في StudyStay، خصوصيتك أولوية أساسية. توضح هذه السياسة كيف نجمع بياناتك ونستخدمها ونحميها أثناء استخدامك للمنصة.
+                في حُجرة، خصوصيتك أولوية أساسية. توضح هذه السياسة كيف نجمع بياناتك ونستخدمها ونحميها أثناء استخدامك للمنصة.
               </p>
             </header>
 
@@ -150,7 +150,7 @@ export default function Privacy() {
                 <div className="bg-surface-container-high p-6 md:p-12 rounded-xl text-center">
                   <h2 className="text-2xl md:text-3xl font-bold mb-4 font-headline">لديك أسئلة عن بياناتك؟</h2>
                   <p className="text-on-surface-variant mb-8 max-w-lg mx-auto text-sm md:text-base">فريق الخصوصية متاح لمساعدتك في فهم حقوقك وإدارة معلوماتك.</p>
-                  <a className="inline-flex items-center justify-center gap-2 bg-primary text-white px-6 md:px-8 py-3 md:py-4 rounded-xl font-bold hover:shadow-lg transition-all active:scale-95 w-full sm:w-auto" href="mailto:privacy@studystay.com">
+                  <a className="inline-flex items-center justify-center gap-2 bg-primary text-white px-6 md:px-8 py-3 md:py-4 rounded-xl font-bold hover:shadow-lg transition-all active:scale-95 w-full sm:w-auto" href="mailto:privacy@hojra.com">
                     <span className="material-symbols-outlined">mail</span>
                     التواصل مع فريق الخصوصية
                   </a>

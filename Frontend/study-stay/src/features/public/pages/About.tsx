@@ -12,7 +12,7 @@ const About: React.FC = () => {
             نجعل السكن الطلابي أسهل وأكثر أماناً
           </h1>
           <p className="text-lg text-on-surface-variant leading-relaxed">
-            StudyStay هي منصة رقمية تربط بين الطلاب الباحثين عن سكن مناسب وملاك العقارات القريبة من الجامعات، بشكل موثوق وشفاف من البداية للنهاية.
+            حُجرة هي منصة رقمية تربط بين الطلاب الباحثين عن سكن مناسب وملاك العقارات القريبة من الجامعات، بشكل موثوق وشفاف من البداية للنهاية.
           </p>
         </header>
 
@@ -55,7 +55,7 @@ const About: React.FC = () => {
         </section>
 
         <section className="rounded-3xl bg-linear-to-br from-primary to-primary-container text-white p-10 md:p-14">
-          <h2 className="font-headline text-3xl font-bold mb-8">لماذا تختار StudyStay؟</h2>
+          <h2 className="font-headline text-3xl font-bold mb-8">لماذا تختار حُجرة؟</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
               { icon: 'verified', title: 'عقارات موثقة', desc: 'كل عقار يمر بمراجعة الإدارة قبل النشر' },

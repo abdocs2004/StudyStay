@@ -98,7 +98,7 @@ const RequestReset: React.FC = () => {
       <footer className="w-full py-8 bg-surface border-t border-indigo-100/10">
         <div className="flex flex-col md:flex-row justify-between items-center px-8 max-w-7xl mx-auto gap-4">
           <div className="text-lg font-bold text-on-surface font-headline">The Sanctuary</div>
-          <div className="text-slate-500 text-sm font-body">© 2024 StudyStay. جميع الحقوق محفوظة.</div>
+          <div className="text-slate-500 text-sm font-body">© 2024 حُجرة. جميع الحقوق محفوظة.</div>
           <div className="flex gap-6">
             <a className="text-slate-500 text-sm hover:text-indigo-500 transition-colors" href="#">
               سياسة الخصوصية

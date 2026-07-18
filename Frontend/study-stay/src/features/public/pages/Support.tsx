@@ -26,7 +26,7 @@ const Support: React.FC = () => {
           <div className="rounded-2xl bg-surface-container-lowest p-6 text-center shadow-sm">
             <span className="material-symbols-outlined text-2xl text-primary mb-3 block">mail</span>
             <h3 className="font-bold mb-1">البريد الإلكتروني</h3>
-            <p className="text-sm text-on-surface-variant">support@studystay.com</p>
+            <p className="text-sm text-on-surface-variant">support@hojra.com</p>
           </div>
           <div className="rounded-2xl bg-surface-container-lowest p-6 text-center shadow-sm">
             <span className="material-symbols-outlined text-2xl text-primary mb-3 block">schedule</span>
